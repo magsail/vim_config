@@ -15,7 +15,7 @@ set guicursor+=i:blinkwait10
 ":set foldmethod = syntax
 
 set tabstop=4
-set shiftwidth=2
+set shiftwidth=4
 set expandtab
 
 " turn off expandtab in Makefiles
@@ -38,3 +38,11 @@ nmap <A-Right> <C-w>l
 
 " Set auto indent
 set autoindent
+
+" Load pathogen.vim
+" Reference link: https://github.com/tpope/vim-pathogen
+" Note: Its seems putting vim-pathogen folder under bundle doesn't help
+" vim recognizing pathogen. pathogen.vim must be put under autoload folder.
+execute pathogen#infect()
+syntax on
+filetype plugin indent on
