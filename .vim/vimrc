@@ -36,3 +36,5 @@ nmap <A-Down> <C-w>j
 nmap <A-Left> <C-w>h
 nmap <A-Right> <C-w>l
 
+" Set auto indent
+set autoindent
