@@ -46,3 +46,6 @@ set autoindent
 execute pathogen#infect()
 syntax on
 filetype plugin indent on
+
+" Auto map .vlib syntax highlighting to .v syntax highlighting
+autocmd BufNewFile,BufRead *.v,*.sv,*.vlib set filetype=verilog
