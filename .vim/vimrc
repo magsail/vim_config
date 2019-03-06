@@ -71,4 +71,10 @@ set list
 " Display only trailing spaces, enable the following
 set listchars=trail:·
 
+" Adding vimdiff color scheme
+if &diff
+    colorscheme evening
+    syntax off
+endif
+
 
