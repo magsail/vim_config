@@ -54,3 +54,6 @@ autocmd BufNewFile,BufRead *.v,*.sv,*.vlib set filetype=verilog
 set laststatus=2
 set statusline+=%F
 
+" Display trailing spaces
+set listchars=tab:!·,trail:·
+
