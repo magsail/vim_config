@@ -49,3 +49,8 @@ filetype plugin indent on
 
 " Auto map .vlib syntax highlighting to .v syntax highlighting
 autocmd BufNewFile,BufRead *.v,*.sv,*.vlib set filetype=verilog
+
+" Add status line to display the file path and name
+set laststatus=2
+set statusline+=%F
+
