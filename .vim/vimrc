@@ -77,4 +77,15 @@ if &diff
     syntax off
 endif
 
+" Buftabline settings
+" Showing the buffers opened on the first tab line
+let g:buftabline_show = 2
+let g:buftabline_numbers = 1
+let g:buftabline_indicators = 1
+let g:buftabline_separators = 0
 
+" Hot keys for switching between buffers
+" Move to next buffer: Ctrl+n
+" Move to previous buffer: Ctrl+p
+nnoremap <C-n> :bnext<CR>
+nnoremap <C-p> :bprev<CR>
