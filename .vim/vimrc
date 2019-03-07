@@ -63,6 +63,12 @@ autocmd FileType make set noexpandtab shiftwidth=8 softtabstop=0 list listchars=
 set laststatus=2
 set statusline+=%F
 
+" Display current line number and column number
+set statusline+=\ \ \ %l\:%c
+
+" Display line percentage, modified flag, read only flag and file type
+set statusline+=\ %P\ %L\ %m\ %r\ %y
+
 " Display trailing spaces and tabs
 " Way to disable list is set nolist
 set list
