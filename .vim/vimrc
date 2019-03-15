@@ -97,5 +97,5 @@ nnoremap <F10> :bnext<CR>
 nnoremap <F9> :bprev<CR>
 
 " Folding code by syntax
-setlocal foldmethod=syntax
+setlocal foldmethod=indent
 
