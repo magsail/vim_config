@@ -95,3 +95,7 @@ let g:buftabline_separators = 0
 " Move to previous buffer: F9
 nnoremap <F10> :bnext<CR>
 nnoremap <F9> :bprev<CR>
+
+" Folding code by syntax
+setlocal foldmethod=syntax
+
