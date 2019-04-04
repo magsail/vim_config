@@ -99,3 +99,6 @@ nnoremap <F9> :bprev<CR>
 " Folding code by syntax
 setlocal foldmethod=indent
 
+" Add script to display non ASCII characters
+highlight nonascii guibg=Red ctermbg=1 term=standout
+au BufReadPost * syntax match nonascii "[^\u0000-\u007F]"
