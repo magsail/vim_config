@@ -13,3 +13,10 @@ My vim configuration files.
 ```shell
   cp -rf ./vim_config/.vim ~/
 ```
+## Vim version tested
+
+'Ubuntu 16.04 and vim version 7.4.1689'
+
+'CentOS 6.4 Final and vim version 7.4.629'
+
+Both installed from distribution's software source.
