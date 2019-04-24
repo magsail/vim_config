@@ -11,7 +11,7 @@ My vim configuration files.
   2. copy the .vim folder to local home folder
 
 ```shell
-  cp -rf ./vim_config/.vim ~/
+  cp -a ./vim_config/.vim ~/
 ```
 ## Vim version tested
 
