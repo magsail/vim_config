@@ -20,3 +20,16 @@ My vim configuration files.
 'CentOS 6.4 Final and vim version 7.4.629'
 
 Both installed from distribution's software source.
+
+## Markdown Highlighting
+
+Use the following plugin for markdown highlighting.
+
+https://github.com/gabrielelana/vim-markdown
+
+I'm using Pathogen, so the command to enable this plugin is as below
+
+```shell
+$ cd ~/.vim/bundle
+$ git clone https://github.com/gabrielelana/vim-markdown.git
+```
