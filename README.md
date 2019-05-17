@@ -32,4 +32,6 @@ I'm using Pathogen, so the command to enable this plugin is as below
 ```shell
 $ cd ~/.vim/bundle
 $ git clone https://github.com/gabrielelana/vim-markdown.git
+$ cd vim-markdown
+$ rm -rf .git
 ```
