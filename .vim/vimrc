@@ -102,3 +102,6 @@ au BufReadPost * syntax match nonascii "[^\u0000-\u007F]"
 
 " Add highlight for markdown file
 au BufNewFile,BufFilePre,BufRead *.md set filetype=markdown
+
+" Add spell check
+set spell spelllang=en_us
