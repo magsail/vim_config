@@ -34,10 +34,10 @@ set incsearch
 :highlight Search ctermbg=Blue ctermfg=White
 
 " Key mapping
-nmap <A-Up> <C-w>k
-nmap <A-Down> <C-w>j
-nmap <A-Left> <C-w>h
-nmap <A-Right> <C-w>l
+nmap <Space>k <C-w>k
+nmap <Space>j <C-w>j
+nmap <Space>h <C-w>h
+nmap <Space>l <C-w>l
 
 " Set auto indent
 set autoindent
@@ -105,3 +105,6 @@ au BufNewFile,BufFilePre,BufRead *.md set filetype=markdown
 
 " Add spell check
 set spell spelllang=en_us
+highlight clear SpellBad
+highlight SpellBad cterm=underline
+highlight SpellCap cterm=underline
