@@ -108,3 +108,7 @@ set spell spelllang=en_us
 highlight clear SpellBad
 highlight SpellBad cterm=underline
 highlight SpellCap cterm=underline
+
+" Fix that in Vim Mac sometimes backspace is not working
+set backspace=indent,eol,start
+

@@ -64,3 +64,9 @@ Create a `.bash_profile` under home directory. Put `PATH="/usr/local/bin:$PATH"`
 Then either source this `.bash_profile` or restart the terminal.
 
 The Vim installed through brew will be launched and `indentlines` will show up.
+
+## Backspace not working in insert mode
+
+This issue happens on my Mac but not on Linux.
+Refer to this post [Link](https://vi.stackexchange.com/questions/2162/why-doesnt-the-backspace-key-work-in-insert-mode)
+
