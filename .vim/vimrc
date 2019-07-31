@@ -51,7 +51,7 @@ syntax on
 filetype plugin indent on
 
 " Auto map .vlib syntax highlighting to .v syntax highlighting
-autocmd BufNewFile,BufRead *.v,*.sv,*.vlib set filetype=verilog
+autocmd BufNewFile,BufRead *.v,*.sv,*.vlib,*.vh set filetype=verilog
 
 " Makefile uses real tabs for syntax parsing
 " If the filetype is Makefile then we need to use real tabs
