@@ -119,3 +119,11 @@ set backspace=indent,eol,start
 
 " Set no wrap
 set nowrap
+
+" Change the color scheme for vimdiff
+if &diff
+    set nospell
+    colorscheme default
+endif
+
+
