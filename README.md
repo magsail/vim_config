@@ -5,7 +5,7 @@ My vim configuration files.
   1. clone the repository to a local directory
 
 ```shell  
-  git clone https://github.com/advsail/vim_config.git
+  git clone https://github.com/lkshore/vim_config.git
 ```
 
   2. copy the .vim folder to local home folder
