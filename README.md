@@ -5,7 +5,7 @@ My vim configuration files.
   1. clone the repository to a local directory
 
 ```shell  
-  git clone https://github.com/lkshore/vim_config.git
+  git clone https://github.com/magsail/vim_config.git
 ```
 
   2. copy the .vim folder to local home folder
@@ -33,7 +33,19 @@ I'm using Pathogen, so the command to enable this plugin is as below
 $ cd ~/.vim/bundle
 $ git clone https://github.com/gabrielelana/vim-markdown.git
 $ cd vim-markdown
-$ rm -rf .git
+```
+
+The `.git` is left in the folder so user can update plugins by git
+pulling from the origin repo.
+
+Some settings would be overridden by vim runtime. Therefore we created
+the `after` folder to make sure that our customized settings are applied
+at last.
+
+The command to check which script changed one specific setting at last is
+
+```shell
+:verbose set option_name
 ```
 
 ## Using Vim on Mac
