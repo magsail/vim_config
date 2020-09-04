@@ -35,6 +35,10 @@ nmap <Space>k <C-w>k
 nmap <Space>j <C-w>j
 nmap <Space>h <C-w>h
 nmap <Space>l <C-w>l
+nmap <up> 10kzz
+nmap <down> 10jzz
+nmap <left> 10h
+nmap <right> 10l
 
 " Set auto indent
 set autoindent
