@@ -35,10 +35,10 @@ nmap <Space>k <C-w>k
 nmap <Space>j <C-w>j
 nmap <Space>h <C-w>h
 nmap <Space>l <C-w>l
-nmap <up> 10kzz
-nmap <down> 10jzz
-nmap <left> 10h
-nmap <right> 10l
+nmap <up> 15kzz
+nmap <down> 15jzz
+nmap <left> 15h
+nmap <right> 15l
 
 " Set auto indent
 set autoindent
@@ -127,4 +127,6 @@ if &diff
     colorscheme default
 endif
 
-
+" Set background color to be dark to avoid 
+" deep blue comment color
+set background=dark
