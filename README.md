@@ -1,5 +1,12 @@
-# vim_config
+# VIM Configuration
+
 My vim configuration files.
+
+Note that for `tabstop` and `shiftwidth` related settings,
+they are explicitly set according to file types in 
+`./.vim/after/ftplugin` to make sure these setting are not
+overridden by other plugins. If you want to change the
+tab settings, look into this folder first.
 
 ## How to config local vim
   1. clone the repository to a local directory
